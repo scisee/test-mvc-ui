@@ -1,0 +1,23 @@
+{
+  "name": "test-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scisee/TestMVC.git"
+  },
+  "author": "scisee01@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scisee/TestMVC/issues"
+  },
+  "homepage": "https://github.com/scisee/TestMVC#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery-grid": "^0.4.3"
+  }
+}
