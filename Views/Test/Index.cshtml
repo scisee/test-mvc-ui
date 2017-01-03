@@ -43,4 +43,17 @@
     </tbody>
 </table>
 
+<script>
+    $(function () {
+        $.ajax({
+            dataType: 'json',
+            url: 'http://localhost:59326/api/users',
+            //data: data,
+            success: function (data) {
+                alert(JSON.stringify(data))
+                document.write(JSON.stringify(data))
+            }
+        });
+    })
+</script>
 
